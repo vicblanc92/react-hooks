@@ -10,15 +10,7 @@ The app has been developed with react and has been divided in components with it
 
 The objective of this app is the use of basic React hooks like useEffect and useContext, and aditional hooks like useReducer.
 
-<<<<<<< HEAD
-
 ## How to run the project
-
-=======
-
-## How to run the project
-
-> > > > > > > 07379e1529b85fa834e48c2cdc55300c599bebb2
 
 1. Run `npm install`
 2. Run `npm start`
