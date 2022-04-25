@@ -9,10 +9,10 @@ function App() {
       <UserState>
         <div className="container d-flex align-items-center justify-content-center p-5">
           <div className="row">
-            <div className="col-md-6">
+            <div className="w-50">
               <UserList />
             </div>
-            <div className="col-md-4 m-5">
+            <div className="w-50 ">
               <Profile />
             </div>
           </div>
