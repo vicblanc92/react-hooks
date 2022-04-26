@@ -23,9 +23,11 @@ const Profile = () => {
           </font>
         </div>
       ) : (
-        <font face="Impact">
-          <h1 className="p-3 mb-2 bg-dark text-white">No user selected</h1>
-        </font>
+        <div className="container d-flex justify-content-center align-items-center">
+          <font face="Impact">
+            <h1 className="p-3 mb-2 bg-dark text-white">No user selected</h1>
+          </font>
+        </div>
       )}
     </>
   );
