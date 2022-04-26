@@ -11,7 +11,7 @@ const UserList = () => {
   }, []);
 
   return (
-    <div className="list-group h-100">
+    <div className="list-group">
       {users.map((user) => (
         <a
           className="list-group-item list-group-item-dark list-group-item-action d-flex flex-row m-1 align-items-end"
