@@ -7,12 +7,12 @@ function App() {
   return (
     <>
       <UserState>
-        <div className="container d-flex align-items-center justify-content-center p-5">
-          <div className="row">
+        <div className="container d-flex justify-content-center align-items-center">
+          <div className="row w-100 p-5">
             <div className="w-50">
               <UserList />
             </div>
-            <div className="w-50 ">
+            <div className="container w-50 d-flex justify-content-center">
               <Profile />
             </div>
           </div>
