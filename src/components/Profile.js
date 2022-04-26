@@ -7,7 +7,7 @@ const Profile = () => {
   return (
     <>
       {selectedUser ? (
-        <div>
+        <div className="w-100 h-100 d-flex justify-content-center align-items-center flex-column">
           <img
             className="rounded-circle"
             src={selectedUser.avatar}
